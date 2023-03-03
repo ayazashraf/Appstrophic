@@ -1,0 +1,469 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+        max-width: 100%;
+}
+@font-face
+{
+font-family: Bellerose;
+src: url(../font/Bellerose.ttf);
+}	
+.marque {
+	float: left;
+	height: 300px;
+	width: 100%;
+}
+.mainmiddlepcdiv {
+	height: 1000px;
+	width: 800px;
+	
+}
+.button1 {
+	float:left;
+	
+}
+.button3 {
+	float:left;
+}.button4 {
+	float:left;
+}.button5 {
+	float:left;
+}
+.divpic1 {
+	float: none;
+	height: 1400px;
+	width:  0px;
+	position:absolute;
+	margin-right:20px;
+	margin-top:20px;
+}
+.divpic2 {
+	float: none;
+	height: 500px;
+	width:  0px;
+	position:absolute;
+	margin-right:0px;
+	margin-top:20px;
+}
+.divpic5 {
+	float: none;
+	height: 500px;
+	width:  0px;
+	position:absolute;
+	margin-right:0px;
+	margin-top:20px;
+}
+.divpic3 {
+	float: none;
+	height: 500px;
+	width:  0px;
+	position:absolute;
+	margin-right:0px;
+	margin-top:20px;
+}
+.divpic4 {
+	float: none;
+	height: 500px;
+	width:  0px;
+	position:absolute;
+	margin-right:0px;
+	margin-top:20px;
+}
+.wrapper {
+	float: none;
+	height: 100%;
+	width: 100%;
+}
+.buttonsdiv {
+	float: none;
+	height: auto;
+	width: auto;
+	margin-left:400px;
+	margin-top:350px;
+}
+.maindiv {
+	float: none;
+	height: 600px;
+	width: 800px;
+}
+.button2 {
+	float:left;
+}
+.portfoliopagediv {
+	float: none;
+	height: 100%;
+	width: 100%;
+	position:absolute;
+}
+.picsboxdiv {
+	height: 250px;
+	width:600px;
+	float: left;
+	
+}
+.picsdiv {
+	height: 250px;
+	width: 200px;
+	float: left;
+
+}
+.picdiv {
+	height:190px;
+	width:190px;
+	float:left;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+
+	
+}
+.linkdiv {
+	height: 50px;
+	width: 200px;
+	float: left;
+	color: #565143;
+	font-size: 10px;
+	margin-top: 20px;
+	
+}
+	
+	
+
+
+
+
+
+
+.divcolour {
+	float: left;
+	height: 100%;
+	width: 100%;
+	background-color: #EBE9D2;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+        width:100%;
+}
+body, html{padding:0; margin:0; font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif}
+
+.ClearFix{clear:both; float:none;}
+.Right{float:right;}
+.Left{float:left;}
+.Cloud{position:fixed; top:0px; bottom:0px; left:0px; right:0px; background:rgba(0,0,0,0.8); z-index:9999; display:none; cursor:pointer;}
+.Separator{box-shadow:0px 3px 2px 2px #CCC; padding:0px; width:100%; float:left; margin:15px 0px; position:relative;}
+
+.ContentBlock{width:100%; float:left; position:relative; overflow:hidden; border-bottom:1px solid #CCC; margin-bottom:20px; padding-bottom:10px; text-align:center;}
+.ContentText{
+	position: absolute;
+	top: 0px;
+	width: 361px;
+	z-index: 99;
+	font-family:
+	Tahoma, Geneva, sans-serif;
+}
+.ContentImage{
+	position: absolute;
+	bottom: -64px;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+}
+.ContentBlock:hover .ContentImage{-webkit-transform:rotate(10deg); -moz-transform:rotate(10deg); -o-transform:rotate(10deg);
+}
+.ContentImage img{opacity:100%;}
+
+
+input[type=text], input[type=password], input[type=email], select{padding:10px 5px; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; outline:none; margin:5px 0px; border:1px solid #999; background-color:#FFF;}
+textarea{border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; outline:none; margin:5px 0px; border:1px solid #999; resize:none; background-color:#FFF;}
+
+h1{font-family:Bellerose; font-size:26px; color:#333; margin:10px 0px;}
+h2{font-family:Bellerose; color:#333; margin:10px 0px; padding-top:10px;}
+p{/*color:#404040;*/ color:#666; font-size:14px;}
+
+
+/* Form Validation Styling */
+.ValidateError{color:#F00; font-size:12px; float:left;}
+.ValidateSuccess{color:#093; font-size:12px; float:left;}
+
+/* CSS3 Animations */
+
+/* TopNav Animation */
+@keyframes TopNav{
+        from{color:#575143; background-color:transparent;}
+        to{color:#FFF; background-color:#575143;}
+}
+@-webkit-keyframes TopNav{
+        from{color:#575143; background-color:transparent;}
+        to{color:#FFF; background-color:#575143;}
+}
+@-moz-keyframes TopNav{
+        from{color:#575143; background-color:transparent;}
+        to{color:#FFF; background-color:#575143;}
+}
+@keyframes TopNavRev{
+        from{color:#FFF; background-color:#575143;}
+        to{color:#575143; background-color:transparent;}
+}
+@-webkit-keyframes TopNavRev{
+        from{color:#FFF; background-color:#575143;}
+        to{color:#575143; background-color:transparent;}
+}
+@-moz-keyframes TopNavRev{
+        from{color:#FFF; background-color:#575143;}
+        to{color:#575143; background-color:transparent;}
+}
+
+@keyframes Rotate{
+        from{transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+        to{transform:rotate(10deg); -webkit-transform:rotate(10deg);}
+}
+@-webkit-keyframes Rotate{
+        from{transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+        to{transform:rotate(10deg); -webkit-transform:rotate(10deg);}
+}
+@-moz-keyframes Rotate{
+        from{transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+        to{transform:rotate(10deg); -webkit-transform:rotate(10deg);}
+}
+/* TopNav Animation End */
+
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+        margin: 0;
+        width: 100%;
+        padding:0;
+		}
+#InnerWrapper {
+        clear: both;
+		float: left;
+        margin: 0;
+	    padding:0;
+        width: 100%;
+        display: block;
+        background: #FFFFFF url('../images/page.png') scroll;
+   background: linear-gradient(top, rgba(195, 199, 200, 0.05) 0, rgba(255, 255, 255, 0.16) 500px) no-repeat, url('../images/page.png'), linear-gradient(top, #D7DADA 0, #FFFFFF 500px) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(195, 199, 200, 0.05) 0, rgba(255, 255, 255, 0.16) 500px) no-repeat, url('../images/page.png'), -webkit-linear-gradient(top, #D7DADA 0, #FFFFFF 500px) no-repeat;
+   background: -moz-linear-gradient(top, rgba(195, 199, 200, 0.05) 0, rgba(255, 255, 255, 0.16) 500px) no-repeat, url('images/page.png'), -moz-linear-gradient(top, #D7DADA 0, #FFFFFF 500px) no-repeat;
+   background: -o-linear-gradient(top, rgba(195, 199, 200, 0.05) 0, rgba(255, 255, 255, 0.16) 500px) no-repeat, url('../images/page.png'), -o-linear-gradient(top, #D7DADA 0, #FFFFFF 500px) no-repeat;
+   background: -ms-linear-gradient(top, rgba(195, 199, 200, 0.05) 0, rgba(255, 255, 255, 0.16) 500px) no-repeat, url('../images/page.png'), -ms-linear-gradient(top, #D7DADA 0, #FFFFFF 500px) no-repeat;
+   background: linear-gradient(top, rgba(195, 199, 200, 0.05) 0, rgba(255, 255, 255, 0.16) 500px) no-repeat, url('../images/page.png'), linear-gradient(top, #D7DADA 0, #FFFFFF 500px) no-repeat;
+   -svg-background: linear-gradient(top, rgba(195, 199, 200, 0.05) 0, rgba(255, 255, 255, 0.16) 500px) no-repeat, url('../images/page.png'), linear-gradient(top, #D7DADA 0, #FFFFFF 500px) no-repeat;
+   min-height: 100%;
+   overflow:hidden;
+}
+
+#TopBar{width:100%; float:left; background:url('../images/header.png') no-repeat center top; height:90px;}
+header{width:100%; margin:0; padding:0; position:relative; height:90px;}
+
+#Logo{position:absolute; left:10px; top:-25px; background:url('../images/appstrophic_logo.png') no-repeat; width:200px; height:145px;}
+#Logo a{ width:200px; height:145px; display:block;}
+
+#SlideShowContainer{width:100%; float:left;height:auto;}
+#SlideShowContainer2{width:100%; float:left; height:10px;}
+
+
+section{float:left; width:100%; padding:10px 0px;}
+
+.FixedWrapper{width:100%; float:left;}
+
+#VisualNavContainer{width:100%; float:left; border-bottom:1px solid #666; padding-bottom:15px; margin-top:10px;}
+nav#VisualNav{float:left;}
+nav#VisualNav ul{padding:0; margin:0; list-style-type:none;}
+nav#VisualNav li{display:block; margin:0px 19px;}
+nav#VisualNav li a:link, nav#VisualNav li a:visited{display:block; width:100%; height:130px; text-decoration:none; color:#666; font-size:15px; text-align:center; font-weight:bold;}
+nav#VisualNav li .android{background:url(../images/visualIcons/android_mini.png) no-repeat center bottom;}
+nav#VisualNav li .ios{background:url(../images/visualIcons/apple_mini.png) no-repeat center bottom;}
+nav#VisualNav li .windows{background:url(../images/visualIcons/windows_mini.png) no-repeat center bottom;}
+nav#VisualNav li .bb{background:url(../images/visualIcons/bb_mini.png) no-repeat center bottom;}
+nav#VisualNav li .seo{background:url(../images/visualIcons/seo_mini.png) no-repeat center bottom;}
+nav#VisualNav li .java{background:url(../images/visualIcons/java_mini.png) no-repeat center bottom;}
+nav#VisualNav li .sql{background:url(../images/visualIcons/sql_mini.png) no-repeat center bottom;}
+nav#VisualNav li .android:hover{background:url(../images/visualIcons/android_mini_hover.png) no-repeat center bottom;}
+nav#VisualNav li .ios:hover{background:url(../images/visualIcons/apple_mini_hover.png) no-repeat center bottom;}
+nav#VisualNav li .windows:hover{background:url(../images/visualIcons/windows_mini_hover.png) no-repeat center bottom;}
+nav#VisualNav li .bb:hover{background:url(../images/visualIcons/bb_mini_hover.png) no-repeat center bottom;}
+nav#VisualNav li .seo:hover{background:url(../images/visualIcons/seo_mini_hover.png) no-repeat center bottom;}
+nav#VisualNav li .java:hover{background:url(../images/visualIcons/java_mini_hover.png) no-repeat center bottom;}
+nav#VisualNav li .sql:hover{background:url(../images/visualIcons/sql_mini_hover.png) no-repeat center bottom;}
+
+
+footer{width:100%; float:left; clear:both; padding:10px 0px; background-image: linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -o-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -moz-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -webkit-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -ms-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.28, #635C4C),
+	color-stop(0.64, #575143)
+);}
+
+.FooterBlock{float:left; width:23%; padding:10px 0px; margin:85px 8px;}
+.FooterBlockTitle{font-family:'Trebuchet MS', Arial, Helvetica, Sans-Serif; font-size:20px; color:#FFF; margin:10px 0px;}
+
+.FooterBlock nav{padding:0; margin:0; list-style-type:none;}
+.FooterBlock nav li{display:block; margin:4px 0px;}
+.FooterBlock nav li a:link, .FooterBlock nav li a:visited{display:block; padding:2px 0px; text-decoration:none; color:#FFF; font-size:13px;}
+.FooterBlock nav li a:hover{color:#CCC;}
+
+.FooterCopyright{float:left; width:100%; margin:-60px 0px 5px 0px; padding-top:10px; border-top:1px solid #CCC;}
+.FooterCopyright small{color:#FFF; font-size:11px; margin-left:10px;}
+
+
+.LiveChatArea{float:left; margin:20px auto; width:100%;}
+.LiveChatArea .ImgHolder{float:left; width:100%; height:160px;}
+.ImgHolder img{border:none; outline:none;}
+
+
+.QuoteForm{float:left; width:100%;}
+.QuoteFormTitle{font-family:'Trebuchet MS', Arial, Helvetica, Sans-Serif; font-size:20px; color:#FFF; background-image: linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -o-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -moz-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -webkit-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -ms-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.28, #635C4C),
+	color-stop(0.64, #575143)
+); font-weight:bold; text-align:center; padding:20px 0px;}
+
+.QuoteFormArea{float:left; background:rgba(0,0,0,0.1); padding:10px 0px;}
+.QuoteFormArea form{margin-left:8px; padding-top:15px;}
+.QuoteFormArea form .icn-user{background:url(../images/icn-user.png) #FFF no-repeat 3%;}
+.QuoteFormArea form .icn-email{background:url(../images/icn-email.png) #FFF no-repeat 3%;}
+.QuoteFormArea form .icn-company{background:url(../images/icn-company.png) #FFF no-repeat 3%;}
+.QuoteFormArea form .icn-phone{background:url(../images/icn-phone.png) #FFF no-repeat 3%;}
+.QuoteFormArea form label{float:left; font-weight:bold; font-size:13px; color:#333; margin-top:10px;}
+
+
+/* Social Icons */
+ul.Social{padding:0; margin:0; list-style-type:none;}
+ul.Social li{display:inline-block; float:left; margin:5px;}
+ul.Social li a:link, ul.Social li a:visited{display:block;}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+#TopBar{height:90px;}
+#TopNav{position:absolute; right:10px; bottom:0px;}
+#TopNav nav{float:left; width:100%;}
+#TopNav nav ul{padding:0; margin:0; list-style-type:none;}
+#TopNav nav ul li{float:left; display:inline-block; position:relative;}
+#TopNav nav ul li a:link, #TopNav nav ul li a:visited{display:block; padding:14px; text-decoration:none; font-size:14px;font-weight:bold; animation-name:TopNavRev; -webkit-animation-name:TopNavRev; -moz-animation-name:TopNavRev; animation-iteration-count: 1; -moz-animation-iteration-count: 1; -webkit-animation-iteration-count: 1; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; -moz-animation-fill-mode:forwards; animation-duration:0.3s; -webkit-animation-duration:0.3s; -moz-animation-duration:0.3s;}
+
+#TopNav nav ul li a:hover{animation-name:TopNav; -webkit-animation-name:TopNav; -moz-animation-name:TopNav; animation-iteration-count: 1; -moz-animation-iteration-count: 1; -webkit-animation-iteration-count: 1; animation-fill-mode:forwards; -webkit-animation-fill-mode:forwards; -moz-animation-fill-mode:forwards; animation-duration:0.3s; -webkit-animation-duration:0.3s; -moz-animation-duration:0.3s;}
+
+#TopNav nav li ul{display:none;}
+#TopNav nav li:hover ul{display:block; width:180px; position:absolute; z-index:99999; list-style-type:none; top:44px; left:0px;}
+#TopNav nav li:hover ul li{display:block; width:100%;  background:rgba(255,255,255,0.9);}
+#TopNav nav li:hover ul li a:link, #TopNav nav li:hover ul li a:visited{display:block; border-bottom:1px solid #CCC;}
+
+#TopNav nav li:hover ul li ul{display:none;}
+#TopNav nav li:hover ul li:hover ul{display:block; width:180px; position:absolute; z-index:99999; list-style-type:none; top:0px; left:180px;}
+#TopNav nav li:hover ul li:hover ul li{display:block; width:100%;  background:rgba(255,255,255,0.9);}
+#TopNav nav li:hover ul li:hover ul li a:link, #TopNav nav li:hover ul li:hover ul li a:visited{display:block; border-bottom:1px solid #CCC;}
+
+
+.active{color:#FFF; background-color:#575143; -webkit-animation-name:none; animation-name:none; -moz-animation-name:none;}
+
+nav#VisualNav li{float:left; display:inline-block;}
+nav#VisualNav li a:link, nav#VisualNav li a:visited{width:100px;}
+
+.GridColumn{
+	width: 46%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+.GridBlock{width:96%; margin:30px auto;}
+#sk{padding-left:25px;}
+#2{padding-left:25px;}
+
+
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+header{width:980px; margin:0px auto;}
+
+.FixedWrapper{width:980px; margin:-80px auto; float:none;}
+
+.GridColumnLarge{width:65%; margin:0px 0px; padding:0px 0px; border:1px solid #333; background-color:#ebe9d2;}
+
+.GridColumnHalf{
+	width: 48%;
+	margin: 0px 0px;
+	border: 1px solid #333;
+	font-size: 12px;
+}
+
+.GridColumn{width:32%; margin:0px 0px; padding:0px 0px;}
+
+.GridBlock{width:96%; margin:30px auto;}
+
+.CustomQuoteScroller{position:fixed; left:0px; top:170px; height:450px; z-index:99999; cursor:pointer; border-top-left-radius:2px; border-bottom-left-radius:2px; border-top-right-radius:8px; border-bottom-right-radius:8px; margin-left:-320px;}
+.CustomQuoteScroller a.btn{display:block; position:absolute; top:15px; left:320px; width:50px; height:140px; border-top-right-radius:8px; border-bottom-right-radius:8px; background-color:#575143; background-image:url(../images/need_help.png); box-shadow:1px 1px 2px 1px #333;}
+.CustomQuoteScroller .HelpForm{float:left; height:450px; width:320px; display:inline-block; background-color:#CCC; background-image: linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -o-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -moz-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -webkit-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -ms-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.28, #635C4C),
+	color-stop(0.64, #575143)
+);  border-top-right-radius:8px; border-bottom-right-radius:8px;}
+.HelpForm table{float:left; margin:2px 15px ;}
+.HelpForm table label{color:#FFF; font-weight:bold;}
+.HelpFormTitle{font-family:'Trebuchet MS', Arial, Helvetica, Sans-Serif; font-size:20px; color:#FFF; margin:20px 0px; padding-left:25px; float:left;}
+.SubmitButton{border:none; background-image: linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -o-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -moz-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -webkit-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+background-image: -ms-linear-gradient(bottom, #635C4C 28%, #575143 64%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.28, #635C4C),
+	color-stop(0.64, #575143)
+);  padding:10px 16px; font-weight:bold; color:#FFF; text-decoration:none; cursor:pointer; box-shadow:1px 1px 2px 1px #333; margin-right:5px; float:right; margin-top:5px;}
+.SubmitButton:hover{ box-shadow:none;}
+
+.MainBanner{width:100%;float:left;height:360px; background-color:#FFF;}
+.MainBanner .ServiceBanner{width:100%; float:left;}
+
+
+/* Inner Page Body */
+#Body{float:left; width:65%; padding:5px 0px; margin:30px 0px; position:relative;}
